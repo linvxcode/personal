@@ -398,7 +398,7 @@ export default function TriplePage() {
                 target="__blank"
               >
                 <motion.div
-                  className="w-[100%] h-[100%]"
+                  className=""
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.04 }}
                   transition={{
@@ -409,17 +409,17 @@ export default function TriplePage() {
                     <motion.div className=" relative ">
                       <motion.div
                         className={` w-[100%]  flex justify-center opacity-100 items-center object-contain   `}
-                        initial={{}}
+                        initial={{height: 20}}
                         viewport={{ once: true }}
                         whileInView={{
-                          height: "150px",
+                          height: 200,
                           transition: {
                             type: "spring",
                             duration: 3,
                             delay: 0.5,
                           },
                         }}
-                        style={{ height: "100%" }}
+                        // style={{ height: "100%" }}
                       >
                         <motion.div>
                           <LazyLoadImage
