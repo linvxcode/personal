@@ -109,16 +109,6 @@ const SecondPage = () => {
   return (
     <div className="flex  mt-[100px] pb-10">
       <motion.div
-        initial={{ translateY: 100, opacity: 0 }}
-        whileInView={{
-          translateY: 0,
-          opacity: 1,
-          transition: {
-            type: "spring",
-            duration: 1,
-          },
-        }}
-        viewport={{ once: true }}
       >
         <div>
           <h1 className="text-4xl   lg:text-6xl font-semibold tracking-tight font-mons">
