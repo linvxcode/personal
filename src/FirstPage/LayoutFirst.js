@@ -211,7 +211,7 @@ const LayoutFirst = () => {
                     : {}
                 }
                 style={{ backgroundColor: "#2654b98f" }}
-                className={`example-container w-[150px] h-[150px] flex  items-center`}
+                className={`example-container w-[150px] h-[150px] max-sm:w-[140px] max-sm:h-[140px] flex  items-center`}
               >
               </motion.div>
               <motion.div className="absolute top-0 flex justify-center items-center p-5"
