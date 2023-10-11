@@ -1,7 +1,7 @@
 
 import 'intersection-observer'
 import React from "react";
-import { render, fireEvent,screen} from "@testing-library/react";
+import { render} from "@testing-library/react";
 import TriplePage from "../Trple Page/TriplePage";
 
 describe('triple', () => {
