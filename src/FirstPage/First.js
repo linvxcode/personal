@@ -120,6 +120,7 @@ const First = () => {
               viewport={{ once: true }}
             >
               <motion.div
+              data-testid="hover test"
                 onMouseEnter={handleHover}
                 onMouseLeave={handleLeave}
                 className=""
@@ -146,6 +147,7 @@ const First = () => {
                 </Btn>
               </motion.div>
               <motion.div
+              data-testid="githover"
                 onMouseEnter={handlGiteHover}
                 onMouseLeave={handleGitLeave}
                 className=""

@@ -397,9 +397,11 @@ export default function TriplePage() {
                 className="z-[9] hover:opacity-100 focus:opacity-100"
                 href={project.Url}
                 target="__blank"
+                
               >
                 <motion.div
                   className=""
+                  data-testid="hovertest"
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.04 }}
                   transition={{

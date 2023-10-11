@@ -32,6 +32,7 @@ const DarkMode = () => {
       defaultSelected
       size="lg"
       color="default"
+      data-testid='Darkmode'
       onClick={toggleDarkMode}
       startContent={<SunIcon />}
       endContent={<MoonIcon />}
