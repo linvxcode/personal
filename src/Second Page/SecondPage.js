@@ -108,27 +108,27 @@ const texts = [
 const SecondPage = () => {
   return (
     <div className="flex  mt-[100px] pb-10">
-      <motion.div
+      <motion.div 
       >
         <div>
-          <h1 className="text-4xl   lg:text-6xl font-semibold tracking-tight font-mons">
-            {texts.map((item, index) => (
+        <motion.h1 className="text-4xl lg:text-6xl flex w-[100%] font-semibold tracking-tight font-mons">
+            {texts.map((text, index) => (
               <motion.span
-                className="hoverText dark:text-white text-black"
                 key={index}
+                className={`${text.class}`}
                 initial={{
                   translateX: "-20px",
                   translateY: "10px",
                   translateZ: "0px",
                   opacity: 0,
                 }}
-                viewport={{ once: true }}
-                whileInView={item.whileInVIew}
+                viewport={{once : true}}
+                whileInView={text.whileInVIew}
               >
-                {item.t}
+                {text.t}
               </motion.span>
             ))}
-          </h1>
+          </motion.h1>
         </div>
         <div>
           <motion.h2

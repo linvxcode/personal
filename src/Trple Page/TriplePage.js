@@ -365,23 +365,24 @@ export default function TriplePage() {
   return (
     <div className="h-screen flex flex-col mt-[100px] mb-[100px] max-md:mt-[200px]">
       <div>
-        <h1 className="text-4xl  lg:text-6xl font-semibold tracking-tight font-mons">
-          {texts.map((text, index) => (
-            <motion.span
-              key={index}
-              initial={{
-                translateX: "-20px",
-                translateY: "10px",
-                translateZ: "0px",
-                opacity: 0,
-              }}
-              viewport={{ once: true }}
-              whileInView={text.whileInVIew}
-            >
-              {text.t}
-            </motion.span>
-          ))}
-        </h1>
+      <motion.h1 className="text-4xl lg:text-6xl flex w-[100%] font-semibold tracking-tight font-mons">
+            {texts.map((text, index) => (
+              <motion.span
+                key={index}
+                className={`${text.class}`}
+                initial={{
+                  translateX: "-20px",
+                  translateY: "10px",
+                  translateZ: "0px",
+                  opacity: 0,
+                }}
+                viewport={{once : true}}
+                whileInView={text.whileInVIew}
+              >
+                {text.t}
+              </motion.span>
+            ))}
+          </motion.h1>
       </div>
       <motion.div className="absolute top-[-200px] w-[800px] h-[800px] max-sm:w-auto left-[-200px] z-[-10]"></motion.div>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lg:gap-5 gap-5 mt-10">

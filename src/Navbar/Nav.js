@@ -29,7 +29,7 @@ export default function App() {
           className="lg:hidden"
         />
         <NavbarBrand>
-          <Btn to="home" variant="light" className=" font-bold text-inherit font-mons uppercase">
+          <Btn to="home" variant="light" className="px-0 font-bold text-inherit font-mons uppercase">
             M Fahlevi 
           </Btn>
         </NavbarBrand>
