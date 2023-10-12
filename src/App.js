@@ -28,12 +28,12 @@ function App() {
       >
         <SecondPage />
       </div>
-      <div id="skill" className="relative  px-12 lg:px-24 flex ">
+      <div id="skill" className="relative max-sm:mt-[30px] px-12 lg:px-24 flex ">
         <SkillPage />
       </div>
       <div className="relative  px-12 lg:px-24 flex   "></div>
 
-      <div id="triple" className="relative px-12 lg:px-24 flex mb-[50px]">
+      <div id="triple" className="relative h-[160vh] max-sm:mt-[100px] px-12 lg:px-24 flex mb-[300px]">
         <TriplePage />
       </div>
       <div className="max-md:mt-[80rem] mt-[750px] xl:mt-[200px] max-[768px]:mt-[90rem] relative px-12 lg:px-24 max-[450px]:mt-[90rem]"></div>
