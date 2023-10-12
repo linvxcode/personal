@@ -3,7 +3,7 @@ import Nav from "./Navbar/Nav";
 import SecondPage from "./Second Page/SecondPage";
 import TriplePage from "./Trple Page/TriplePage";
 import First from "./FirstPage/First";
-import Canvas from "./Layout/Canvas";
+import Canvas from "./Layout/Canvas/Canvas";
 import SkillPage from "./SkillPage/SkillPage";
 import Footer from "./Footer/Footer";
 
