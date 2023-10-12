@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Gradient } from "whatamesh";
-
-const Canvas = () => {
+const CanvasPattern = () => {
   useEffect(() => {
     const gradient = new Gradient();
     gradient.initGradient("#gradient-canvas");
@@ -13,4 +12,4 @@ const Canvas = () => {
   );
 };
 
-export default Canvas;
+export default CanvasPattern;
